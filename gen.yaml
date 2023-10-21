@@ -2,23 +2,27 @@ configVersion: 1.0.0
 management:
   docChecksum: 2516596125ef223fbbef6c434d22eaac
   docVersion: 1.0.0
-  speakeasyVersion: 1.95.1
-  generationVersion: 2.149.1
+  speakeasyVersion: 1.104.0
+  generationVersion: 2.169.0
 generation:
   comments:
     disableComments: false
     omitDescriptionIfSummaryPresent: false
   baseServerURL: ""
+  repoURL: https://github.com/speakeasy-sdks/TSpetStoreKD.git
   sdkClassName: petSrore
   singleTagPerOp: false
   tagNamespacingDisabled: false
 features:
   typescript:
-    core: 2.90.4
+    core: 2.93.0
     globalServerURLs: 2.82.0
 typescript:
-  version: 0.1.0
+  version: 0.2.0
   author: KICKdesigns
   clientServerStatusCodesAsErrors: true
+  flattenGlobalSecurity: true
+  installationURL: https://github.com/speakeasy-sdks/TSpetStoreKD
   maxMethodParams: 0
   packageName: petStore
+  repoSubDirectory: .
