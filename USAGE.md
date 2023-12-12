@@ -1,8 +1,8 @@
-<!-- Start SDK Example Usage -->
+<!-- Start SDK Example Usage [usage] -->
 ```typescript
 import { PetSrore } from "petStore";
 
-(async () => {
+async function run() {
     const sdk = new PetSrore();
 
     const res = await sdk.pets.createPets();
@@ -10,7 +10,9 @@ import { PetSrore } from "petStore";
     if (res.statusCode == 200) {
         // handle response
     }
-})();
+}
+
+run();
 
 ```
-<!-- End SDK Example Usage -->
+<!-- End SDK Example Usage [usage] -->
