@@ -1,21 +1,10 @@
-configVersion: 1.0.0
-management:
-  docChecksum: 2516596125ef223fbbef6c434d22eaac
-  docVersion: 1.0.0
-  speakeasyVersion: 1.127.0
-  generationVersion: 2.220.0
+configVersion: 2.0.0
 generation:
-  comments: {}
   sdkClassName: petSrore
-  repoURL: https://github.com/speakeasy-sdks/TSpetStoreKD.git
   usageSnippets:
     optionalPropertyRendering: withExample
   fixes:
     nameResolutionDec2023: false
-features:
-  typescript:
-    core: 3.3.9
-    globalServerURLs: 2.82.1
 typescript:
   version: 0.5.1
   author: KICKdesigns
@@ -30,9 +19,7 @@ typescript:
       shared: sdk/models/shared
       webhooks: sdk/models/webhooks
   inputModelSuffix: input
-  installationURL: https://github.com/speakeasy-sdks/TSpetStoreKD
   maxMethodParams: 0
   outputModelSuffix: output
   packageName: petStore
-  repoSubDirectory: .
   templateVersion: v1
